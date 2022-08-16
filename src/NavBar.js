@@ -6,19 +6,17 @@ import { createUseStyles } from 'react-jss'
 const useStyles = createUseStyles({
     navbar: {
         display: "flex",
-        height: "50px",
+        height: "40px",
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "#4caf50",
         color: "white",
         fontWeight: "bold",
         fontFamily: "",
-        fontSize: "22px",
+        fontSize: "20px",
         letterSpacing: "3px",
     },
     entry: {
-        width: "100%",
-        height: "100%",
         justifyContent: "center",
         alignItems: "center",
         display: "flex",
@@ -49,16 +47,17 @@ const useStyles = createUseStyles({
     },
     searchContainer: {
         width: '100%',
-        height: '100%',
+        margin: '0px'
     },
     searchInput: {
-        height: '100%',
+        width: '100%',
+        height: '30px',
         width: 'calc(100% - 50px);',
-        padding: '10px',
     },
     searchBtn: {
-        height: '50px',
-        width: '50px',
+        height: '30px',
+        width: '30px',
+        cursor: 'pointer'
     },
     '@media screen and (max-width: 900px)': {
         navbar: {

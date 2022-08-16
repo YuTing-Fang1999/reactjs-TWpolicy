@@ -57,6 +57,9 @@ const useStyles = createUseStyles({
    res: {
       display: 'grid',
       gridTemplateColumns: '1fr 1fr 1fr',
+      '& div,& p': {
+         fontSize: '16px',
+      },
 
    },
    '@media screen and (max-width: 900px)': {
