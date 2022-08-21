@@ -16,6 +16,7 @@ module.exports = {
       filename: './src/bundle.js', //[name].js',
       //打包後的路徑，這裡使用path模組的resolve()取得絕對位置，也就是目前專案的根目錄
       path: path.resolve('./'),
+      publicPath: 'auto',
    },
    module: {
       //rules的值是一個陣列可以存放多個loader物件
@@ -34,6 +35,7 @@ module.exports = {
 
       ]
    },
+
    //增加一個給devserver的設定
    devServer: {
       //指定開啟port為9000

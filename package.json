@@ -17,13 +17,15 @@
         "style-loader": "^3.3.1",
         "webpack": "^5.11.0",
         "webpack-cli": "^4.2.0",
-        "webpack-dev-server": "^3.11.0"
+        "webpack-dev-server": "^4.10.0"
     },
     "dependencies": {
         "axios": ">=0.21.1",
+        "firebase": "^9.9.3",
         "query-string": "^6.13.7",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
+        "react-firebaseui": "^6.0.0",
         "react-jss": "^10.9.0",
         "react-router": "^5.2.0",
         "react-router-dom": "^5.2.0"

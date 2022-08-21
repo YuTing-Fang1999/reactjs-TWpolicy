@@ -21,7 +21,7 @@ const useStyles = createUseStyles({
     },
     response: {
         backgroundColor: 'whitesmoke',
-        padding: '10px',
+        padding: '20px',
         // paddingBottom: '60px',
         fontFamily: '微軟正黑體',
         fontSize: "18px"
